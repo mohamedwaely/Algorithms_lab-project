@@ -1,0 +1,101 @@
+.mySlides {
+	display: none;
+}
+
+body {
+	background-color: rgb(153, 198, 187);
+	font-family: Verdana, sans-serif;
+}
+
+.head {
+	margin-top: 20px;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	text-align: center;
+	font-size: 30px;
+	background-color: #4880ce;
+	color: white;
+	border-radius: 20px;
+	font-weight: bolder;
+}
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+#datah{
+	position: relative;
+	bottom: 150px;
+	left: 75px;
+
+}
+#time-w{
+	color: rgb(39, 9, 39);
+	font-size:25px;
+}
+#swaps-w{
+	color: rgb(39, 9, 39);
+	font-size:25px;
+}
+
+.bar {
+	/* width: 28px; */
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: lightgray;
+	transition: 0.1s all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+}
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #4e5bd1;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	margin-left: 37vw;
+	margin-top: 4vw;
+	margin-right: 1vw;
+	cursor: pointer;
+}
+.btn2 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #4e5bd1;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	cursor: pointer;
+}
+.btn3 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #4e5bd1;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	cursor: pointer;
+}
+.btn4 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #4e5bd1;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	cursor: pointer;
+}
